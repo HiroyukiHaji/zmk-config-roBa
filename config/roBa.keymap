@@ -124,10 +124,10 @@
 
         MOUSE {
             bindings = <
-&kp ESC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp ASTERISK                         &kp TAB   &mkp MB4        &mkp MB3        &mkp MB5         &trans
-&trans   &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp MINUS     &trans         &trans  &kp HOME  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp END
-&trans   &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp PLUS      &kp SLASH      &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &kp KP_N0  &kp KP_DOT  &trans     &trans        &trans         &trans  &trans                                                     &trans
+&kp ESC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp ASTERISK                          &kp TAB   &mkp MB4        &mkp MB3        &mkp MB5         &trans
+&trans   &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp MINUS     &trans         &trans   &kp HOME  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp END
+&trans   &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp PLUS      &kp SLASH      &trans   &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &kp KP_N0  &kp KP_DOT  &trans     &trans        &trans         &kp DEL  &trans                                                     &trans
             >;
         };
 
