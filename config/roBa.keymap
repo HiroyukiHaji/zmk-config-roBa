@@ -43,19 +43,6 @@
         };
     };
 
-    macros {
-        inputPa: to_layer_0 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_tap>,
-                <&kp MACRO_PLACEHOLDER &kp LS(Y) &kp N &kp G &kp W &kp I &kp E &kp LS(J) &kp LS(M) &kp S &kp EXCL &kp QMARK &kp N7 &kp N2 &kp N0 &kp N2 &kp N5>;
-
-            label = "TO_LAYER_0";
-        };
-    };
-
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
