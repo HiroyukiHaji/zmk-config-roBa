@@ -28,7 +28,7 @@
         };
 
         muhennkann {
-            bindings = <&inputPa INT_MUHENKAN>;
+            bindings = <&to_layer_0 INT5>;
             key-positions = <11 10>;
         };
 
